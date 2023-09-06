@@ -1,8 +1,8 @@
 # Healthcare Database Management (Go, MongoDB, Gin)
 
-[![Go](https://img.shields.io/badge/Go-1.16-blue.svg)](https://golang.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-4.4-green.svg)](https://www.mongodb.com/)
-[![Gin](https://img.shields.io/badge/Gin-1.7.2-yellow.svg)](https://gin-gonic.com/)
+[![Go](https://img.shields.io/badge/Go-1.18-blue.svg)](https://golang.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green.svg)](https://www.mongodb.com/)
+[![Gin](https://img.shields.io/badge/Gin-1.9.1-yellow.svg)](https://gin-gonic.com/)
 
 A CRUD API for managing patient records using Go, MongoDB, and Gin framework.
 
@@ -39,6 +39,13 @@ A CRUD API for managing patient records using Go, MongoDB, and Gin framework.
    ```
 
 5. Access the API endpoints via [http://localhost:8080](http://localhost:8080).
+    
+    - Get List of All Patients (GET): http://localhost:8080/patients
+    - Get a Patient by ID (GET): http://localhost:8080/patients/{id}
+    - Add a New Patient (POST): http://localhost:8080/patients
+    - Update a Patient (PUT): http://localhost:8080/patients/{id}
+    - Delete a Patient by ID (DELETE): http://localhost:8080/patients/{id}
+    - Delete All Patients (DELETE): http://localhost:8080/patients
 
 ## 🔗 How to Further Use in Other Projects
 
